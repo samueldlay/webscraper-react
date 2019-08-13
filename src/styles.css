@@ -1,0 +1,114 @@
+.App {
+  font-family: "Dank Mono", "Fira Code", monospace;
+  text-align: center;
+  font-size: 16px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid palevioletred;
+  border-right: 1px solid palevioletred;
+}
+
+/* @media only screen and (min-width: 700px) { */
+.otherContent {
+  /* padding: 10px; */
+  height: calc(50vh - 1.5px);
+  width: calc(50vw - 1.5px);
+  /* background-color: blue; */
+  overflow: scroll;
+  /* position: fixed; */
+  background-color: #282a36;
+  color: rgb(231, 229, 229);
+  border-top: 1px solid palevioletred;
+  border-left: 1px solid palevioletred;
+}
+
+.JSONContent {
+  flex: 1;
+  /* background-color: navy; */
+  height: calc(100vh - 2px);
+  /* padding: 10px; */
+  width: calc(50vw - 1.5px);
+  overflow: scroll;
+  background-color: #282a36;
+  color: rgb(231, 229, 229);
+  border-top: 1px solid palevioletred;
+  border-left: 1px solid palevioletred;
+}
+/* } */
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  /* border-bottom: 1px dotted black; */
+  margin-top: 10px;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 48vw;
+  background-color: #282a36;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 30%;
+  left: 50%;
+  margin-left: -24vw;
+  opacity: 0;
+  transition: 0.5s;
+  border: 1px solid black;
+}
+
+.tooltip .tooltiptext::after {
+  /* content: ""; */
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+/*For Loading component below*/
+/* .loading {
+  font-size: 30px;
+}
+
+.loading:after {
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: bottom;
+  -webkit-animation: ellipsis steps(4, end) 900ms infinite;
+  animation: ellipsis steps(4, end) 900ms infinite;
+  content: "\2026"; 
+  width: 0px;
+}
+
+@keyframes ellipsis {
+  to {
+    width: 1.25em;
+  }
+}
+
+@-webkit-keyframes ellipsis {
+  to {
+    width: 1.25em;
+  }
+} */
+
+bodyborder-bottom: 1px solid palevioletred;
+border-right: 1px solid palevioletred;
+
+otherheight: calc(50vh - 1.5px);
+
+jsonheight: calc(100vh - 2px);
