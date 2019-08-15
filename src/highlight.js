@@ -1,8 +1,9 @@
 /** @jsx jsx */
-import { createElement as e, useEffect, useState } from "react";
-import { css, jsx } from "@emotion/core";
-import Highlight from "react-highlight";
-import "./atomOneDark.css";
+import {createElement as e, memo, useEffect, useState} from 'react';
+import {css, jsx} from '@emotion/core';
+import Highlight from 'react-highlight';
+import './atomOneDark.css';
+const HighlightStable = memo(props => <Highlight {...props} />);
 
 let exampleCode = `
 export default function parseHTML(html) {
@@ -105,7 +106,13 @@ export default function parseHTML(html) {
 
 export default function Hilighted(props) {
   if (props.language) {
-    return <Highlight className={props.language}>{props.content}</Highlight>;
+    return (
+      <HighlightStable className={props.language}>
+        {props.content}
+      </HighlightStable>
+    );
   }
-  return <Highlight className={"javascript"}>{exampleCode}</Highlight>;
+  return (
+    <HighlightStable className={'javascript'}>{exampleCode}</HighlightStable>
+  );
 }

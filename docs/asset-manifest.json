@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/webscraper-react/static/css/main.ae6ac3e9.chunk.css",
-    "main.js": "/webscraper-react/static/js/main.c8a2f0ea.chunk.js",
-    "main.js.map": "/webscraper-react/static/js/main.c8a2f0ea.chunk.js.map",
+    "main.css": "/webscraper-react/static/css/main.603f81ae.chunk.css",
+    "main.js": "/webscraper-react/static/js/main.3a584447.chunk.js",
+    "main.js.map": "/webscraper-react/static/js/main.3a584447.chunk.js.map",
     "runtime~main.js": "/webscraper-react/static/js/runtime~main.022f36f7.js",
     "runtime~main.js.map": "/webscraper-react/static/js/runtime~main.022f36f7.js.map",
-    "static/js/2.64abc4e8.chunk.js": "/webscraper-react/static/js/2.64abc4e8.chunk.js",
-    "static/js/2.64abc4e8.chunk.js.map": "/webscraper-react/static/js/2.64abc4e8.chunk.js.map",
+    "static/js/2.e6121f17.chunk.js": "/webscraper-react/static/js/2.e6121f17.chunk.js",
+    "static/js/2.e6121f17.chunk.js.map": "/webscraper-react/static/js/2.e6121f17.chunk.js.map",
     "index.html": "/webscraper-react/index.html",
-    "precache-manifest.fd8cfc4dd60eaa52b6abed4072c54842.js": "/webscraper-react/precache-manifest.fd8cfc4dd60eaa52b6abed4072c54842.js",
+    "precache-manifest.5f768c25136ece8f88bd855adcfabf86.js": "/webscraper-react/precache-manifest.5f768c25136ece8f88bd855adcfabf86.js",
     "service-worker.js": "/webscraper-react/service-worker.js",
-    "static/css/main.ae6ac3e9.chunk.css.map": "/webscraper-react/static/css/main.ae6ac3e9.chunk.css.map"
+    "static/css/main.603f81ae.chunk.css.map": "/webscraper-react/static/css/main.603f81ae.chunk.css.map"
   }
 }
