@@ -1,2 +1,0 @@
-# webscraper-react
- A webscraper

@@ -1,6 +1,6 @@
 .App {
   font-family: "Dank Mono", "Fira Code", monospace;
-  text-align: center;
+  /* text-align: center; */
   font-size: 16px;
 }
 
@@ -36,6 +36,7 @@ body {
   color: rgb(231, 229, 229);
   border-top: 1px solid palevioletred;
   border-left: 1px solid palevioletred;
+  text-align: center;
 }
 /* } */
 
@@ -62,6 +63,7 @@ body {
   opacity: 0;
   transition: 0.5s;
   border: 1px solid black;
+  overflow-x: auto;
 }
 
 .tooltip .tooltiptext::after {

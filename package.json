@@ -1,18 +1,17 @@
 {
   "name": "webscraper",
   "version": "1.0.0",
-  "homepage": "https://samueldlay.github.io/webscraper-react/",
   "description": "",
+  "homepage": "https://samueldlay.github.io/webscraper-react/",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
     "@emotion/core": "10.0.15",
-    "prism-react-renderer": "0.1.7",
+    "highlight.js": "9.15.9",
     "react": "16.8.6",
     "react-dom": "16.8.6",
     "react-highlight": "0.12.0",
-    "react-scripts": "^3.1.0",
-    "react-simple-code-editor": "0.9.14",
+    "react-scripts": "^3.1.1",
     "styled-components": "4.3.2"
   },
   "devDependencies": {
