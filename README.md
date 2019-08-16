@@ -1,6 +1,5 @@
 # A Very Niche Web Scraper
 
-
 ----
 The purpose of this project was to explore some concepts in client-side data scraping. This was an exercise in analyzing the source HTML for my old high school's website and outputting some UI to visualize some of the data that was extracted.
 
