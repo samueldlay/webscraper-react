@@ -5,7 +5,6 @@ The purpose of this project was to explore some concepts in client-side data scr
 
 # Tools Used:
 
-----
 For this project, I made use of Cors Anywhere in order to make cross-origin requests on the client-side. Additionally, I used Highlight.js for syntax highlighting.
 
 # Concepts Used:
