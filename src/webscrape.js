@@ -110,8 +110,6 @@ async function getSearchResults(query) {
       return { staff, text };
     } else throw Error();
   } catch (err) {
-    console.log("Problem fetching data: ", JSON.stringify(err.message));
-
-    return err;
+    throw new Error('Error fetching data: ', err);
   }
 }
