@@ -9,6 +9,7 @@ For this project, I made use of Cors Anywhere in order to make cross-origin requ
 
 # Concepts Used:
 
+* React Hooks
 * Data Scraping
 * Filters
 * Async/await
