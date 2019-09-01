@@ -22,4 +22,4 @@ The data is visualized in 3 seperate boxes
 * The bottom-left box is the function I wrote in my code that is responsible for scraping the data
 * The right box displays the information that is stored in the object that is created from the webscraper function
 
-# [Demo Here](https://samueldlay.github.io/webscraper-react/)
+# [Demo Here](https://samueldlay.github.io/webscraper-react/) 
